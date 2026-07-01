@@ -1,0 +1,28 @@
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    3>4
+    this is the code for the paragraph &lt;p&gt;/p&gt;
+    /*&lt; = < and &gt; = >*/
+    <pre>
+        /*pre = preformatted text*/
+        /* this is the code for the paragraph <p> this is the para </p>
+        <p>
+            this is the para
+            this is the few time    or some more
+        </p>
+    </pre>
+    &copy 2026
+
+     copyright &copy &nbsp &nbsp diksha
+     /*&nbsp = space */
+     <blockquote>
+        <h1>Quote</h1>
+     </blockquote>
+&lt;/body&gt;
+&lt;/html&gt;

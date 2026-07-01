@@ -1,0 +1,32 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - lets learns it</title>
+</head>
+<body>
+    <div>
+         <h1>form to apply for a job</h1>
+    <form action="post">
+         <label for="use">Enter your username:</label>
+         <input type="text" id="use" name="username" placeholder="enter your username">
+     
+    </div>
+
+    <div>
+         <input type="text" id="male" name="gender" value="male">
+         
+         <label for="male">Male</label>
+         <input type="text" id="female" name="gender" value="female">
+         <label for="female">female</label>    
+    </div>
+
+    <div>
+          <input type="text" id="female" name="gender">
+          <label for="subscribe">subscribe to newspaper</label>
+    </div> 
+
+   </form>         
+</body>
+</html>

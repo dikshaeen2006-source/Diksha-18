@@ -1,0 +1,15 @@
+div{
+    background-color: lightblue;
+    width: 200px;
+    height: 100px;
+}
+p{
+    background-color: lightgreen;
+    width: 200px;
+    height: 100px;
+}
+span{
+    background-color: lightyellow;
+    width: 200px;
+    height: 100px;
+}

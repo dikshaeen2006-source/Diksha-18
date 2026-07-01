@@ -1,0 +1,48 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img width="458" height="400" src="image1.png" alt="Image 1">
+    <table>
+        <caption>Personnel Information</caption>
+        <br>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Language</th>       
+        
+            <tr>
+                <tbody>
+                <td>Diksha</td>
+                <td>18</td>
+                <td>Python</td>
+            </tr>
+            <tr>
+                <td>dev</td>
+                <td>20</td>
+                <td>Java</td>
+            </tr>
+           <tbody>
+            <tfoot>
+                footer
+            </tfoot>
+          
+    </table>
+      <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>C++</li>
+            </ul>
+            <ol type ="A">
+                <li>Python</li>
+                <li>Java</li>
+                <li>C++</li>
+            </ol>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline block -Elements- HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>This is a paragraph.</p>
+    <a href="https://google.com">Google</a>
+    <div>This is a div.</div>
+    <span>This is a span and I am Inline.</span><a href="yes he is Inline"></a>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

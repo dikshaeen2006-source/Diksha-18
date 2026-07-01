@@ -1,0 +1,30 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1style="color: blue; background-color: rgb(105, 33, 98); font-size: 24px;">
+        About me
+    </h1>
+         <divstyle="color: red; background-color: rgb(60, 173, 67);">
+            <ol>
+                <li>
+                    I am software developer.
+                </li>
+                
+             </ol>
+
+           
+       
+    </div>
+    <p>
+        every day I am learning new technologies and improving my skills to become a better
+         developer. I enjoy working on challenging projects and collaborating with other 
+         developers to create innovative solutions.
+    </p>
+
+</body>
+</html>

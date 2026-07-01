@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Boxmodel</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .box1{
+            background-color:rgb(62, 114, 169);
+            padding: 20px;
+        }
+
+        .box2{
+            background-color:rgb(169, 62, 114);
+            padding: 20px;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="box box1">
+        <p>This is a simple box model example.</p>
+    </div>
+    <div class="box box2">
+        I am another box.
+    </div>
+</body>
+</html>
