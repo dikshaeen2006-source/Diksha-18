@@ -1,7 +1,7 @@
 *{
-    margin: 0;
-    padding: 0;
-    font-family: regular;
+    margin: 0;,
+    padding: 0;,
+    font-family: regular;,
 }
 
 @font-face {
