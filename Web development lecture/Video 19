@@ -4,21 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playwrite+ID:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         h1{
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
+        h2{
+            text-transform: uppercase;
+            text-decoration-line: underline;
+        }
         p{
-            font-family: 'Playwrite ID', cursive;
+           font-family: 'Trebuchet MS', 
+           'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          font-size:xx-large;
+        
         }
     </style>
 </head>
 <body>
     <div>
         <h1>Fonts</h1>
+        <h2>Diksha</h2>
         <p>This is a video on fonts</p>
     </div>
 </body>
