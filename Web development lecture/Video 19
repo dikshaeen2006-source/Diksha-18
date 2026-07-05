@@ -7,24 +7,128 @@
     <style>
         h1{
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-transform: uppercase;
+            text-decoration-line: underline;
+            text-decoration-style: wavy;
+            text-decoration-color: rgb(17, 17, 218);
+            text-decoration-thickness: 4px;
+            text-shadow: 2px 2px 5px rgb(246, 3, 173);
+            text-align: center;
+             background-color: rgb(156, 15, 191);
         }
+        
         h2{
             text-transform: uppercase;
             text-decoration-line: underline;
+            text-decoration-style:solid;
+            text-decoration-color:rgb(93, 17, 186);
+            text-decoration-thickness: 4px;
+            text-shadow: 2px 2px 5px rgb(234, 117, 8);
         }
         p{
-           font-family: 'Trebuchet MS', 
-           'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-          font-size:xx-large;
-        
+           font-family: 'Trebuchet MS','Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           font-size:large;
+           text-transform: uppercase;
+           text-decoration-line: underline;
+           text-decoration-style: dotted;
+           text-decoration-color:rgb(8, 141, 218);
+           text-decoration-thickness: 4px;
+           text-shadow: 2px 2px 5px brown;
         }
+        p1{
+            font-family: 'Trebuchet MS','Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           font-size:large;
+           text-transform: uppercase;
+           text-decoration-line: underline;
+           text-decoration-style: dashed;
+           text-decoration-color:rgb(215, 45, 82);
+           text-decoration-thickness: 4px;
+           text-shadow: 2px 2px 5px rgb(162, 23, 143);
+        }
+        
     </style>
 </head>
 <body>
     <div>
-        <h1>Fonts</h1>
-        <h2>Diksha</h2>
-        <p>This is a video on fonts</p>
+        <h1>About Fonts</h1>
+        <h2> I AM Diksha.</h2>
+        <p>This is first video on fonts.</p>
+        <p1>I am student of Computer science. </p1>
     </div>
 </body>
 </html>
+
+
+
+
+
+
+<!-- colors -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colors</title>
+    <style>
+        h3{
+            text-transform: uppercase;
+            font-size:xx-large;
+            color:darkred;
+             background-color: rgb(25, 170, 138);
+        }
+        h4{
+            text-transform: uppercase;
+            font-size:xx-large;
+            /* color: rgb(19, 218, 151); */
+            /* color: #0bee0b; */
+            /* color: rgb(56,67,87); */
+            /* color: rgba(45,78,45, 5) */
+            color: hsl(145, 89%, 37%);
+            background-color: rgb(221, 155, 205);
+
+        }
+        ol{
+             text-transform: lowercase;
+            font-size:SMALL;
+            color:rgb(212, 35, 35);
+             background-color: rgb(25, 119, 170);
+
+        }
+        p3{
+             text-transform: uppercase;
+            font-size:xx-large;
+            color:rgb(228, 188, 24);
+             background-color: rgb(230, 24, 158);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Colors-</h1>
+    <h3>"Lets leran about colors".</h3>
+    <h4>"Lets start about yourself".</h4>
+    <p3>color can be represented in:
+        <ol>
+            <li>Color keyword</li>
+            <li>Hex color codes</li>
+            <li>RGB</li>
+            <li>RGBA</li>
+            <li>HSL</li>
+        </ol>
+    </p3>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
