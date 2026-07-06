@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+         h1{
+             /* The specificity of this selector is 1 */
+
+             color: aqua; 
+
+             /* The specificity of this selector is 10 */
+
+            .cpurple{
+                color: purple;
+            } 
+
+             /* The specificity of this secector is 10 */
+
+             .cred{
+                color: lightcoral;
+            }
+
+            /* The specificity of this secector is 10 */
+
+            .yellow{
+
+            color: yellow;
+            }
+
+
+            } 
+             /* The specificity of this secector is 1 + 10 = 11 */
+
+             h1.yellow{ 
+                color:rgb(158, 211, 23); 
+            }
+            /* This is an example of attribute seclector. The specificity of this seclector is 10. */
+            
+            [data-x=a]{
+                background-color: rgb(227, 26, 170);
+            }
+       
+        /* The specificity of this secector is 1 + 10 + 10 + 10 + 10 = 41 */
+        a.harryclass.rohan-class[href]:hover {
+                color: blueviolet;
+            }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="yellow cred cpurple" data-x="a">Hey Guy's, I am Diksha.</h13>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!-- inline css
+id selector
+class selector -->
