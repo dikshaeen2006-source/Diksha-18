@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        html{
+            font-size: 70.5px;
+        }
+
+        .box{
+            box-sizing: border-box;
+            border: 2px solid  rgb(35, 25, 209);
+            width: 2048px;
+            height: 108vw;
+            margin: 14px;
+            background-color: lightpink;
+            font-size: 200px;
+        }
+        .container{
+            box-sizing: border-box;
+            border: 2px solid  rgb(212, 16, 16);
+            /* width: 2048px; */
+            height: 108vw;
+            margin: 12px;
+            background-color: rgb(3, 126, 160);
+            font-size: 60px;
+        }
+        .container > p{
+            font-size: 2em;
+            
+        }
+        .container > div > div{
+            border: 2px solid black;
+            width: 50%;
+
+        }
+
+        .mycont{
+            border: 2px solid black;
+            box-sizing: border-box;
+            margin: 23px auto;
+            color: rgb(0,0,0)
+            font-size 22px;
+            width: 80vw;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+            this is a box.
+     </div>       
+            <div class="container">
+                <p>
+                    
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, doloribus! Officia eveniet sapiente ratione ea 
+                      rem eligendi sequi exercitationem autem itaque dolore, odio nam.
+                    <div>
+                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, qui doloribus libero iste distinctio, alias atque vero 
+                        deserunt, eveniet cupiditate sed? Ducimus, repellendus voluptatibus!
+                   </div> 
+                </p>
+
+            </div>
+
+      
+      <div class="mycont"> 
+        I am a computer science student.
+      </div> 
+   
+</body>
+</html>

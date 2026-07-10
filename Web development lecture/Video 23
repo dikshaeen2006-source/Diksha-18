@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Property</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+.Human{
+    border: 2px solid blue;
+    /* display: inline; */
+    padding: 45px;
+    margin: 45px;
+    width: 44px;
+    background-color: blanchedalmond;
+}
+
+    </style>
+</head>
+<body>
+    <div class="Human">
+        I am a Human.
+    </div>
+   
+   <div class="Human">
+    Also I am a Good human.
+   </div>
+   <span>
+        I am a good Human.
+    </span>
+    <span>
+        I am a Bad Human.
+    </span>
+</body>
+</html>

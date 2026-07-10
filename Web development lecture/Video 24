@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outline propertyt</title>
+    <style>
+        .chair{
+            border: 2px solid black;
+            padding: 34px;
+            box-shadow: 5px 5px 15px 5px rgb(12, 140, 226);
+            background-color: rgb(19, 230, 205);
+
+        }
+        .text-element{ text-shadow: rgba(39, 10, 255, 0.756)
+        }
+    </style>
+</head>
+<body>
+    <div class="chair">
+        I am a Chair.
+       
+    </div>
+    
+     <p class="text-element">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, tempore consequuntur.
+             Quaerat dolor repudiandae natus fugiat perspiciatis hic vel vero dolore voluptates temporibus?
+    </p>
+
+    
+</body>
+</html>
