@@ -4,49 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diksha-portfolio</title>
-    <link rel="stylesheet" href="styles.css">
 </head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="script.js">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnectt" href="https://fonts.gstatic.com"crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <body>
-    <header>
-        <h1>Diksha</h1>
-        <p>BCA Graduate | MCA Aspirant | Web Developer</p>
+    <header class="hero">
+        <!-- <img src="image/photo.jpng1.jpeg" alt="Diksha profile Photo" class="profile-Photo"> -->
+        <h1>DIKSHA</h1>
+        <p>BCA Graduate | Front-End Developer | MCA Aspirant</p>
+        <a href="Diksha_resume1(5).pdf" class="btn" download>Download Resume</a>
     </header>
     <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
+        <a href="#About">About</a>
+        <a href="#Skills">Skills</a>
         <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a href="#Internship">Internship</a>
+        <a href="Education">Education</a>
+        <a href="#Contact">Contact</a>
     </nav>
     <section id="about">
-        <h2>About Me</h2>
-        <p>I am Diksha. I have completed my BCA and am currently pursuing MCA. 
-            I am a web developer with a strong foundation and interest in artificial intelligence in computer science principles.</p>
+        <h2> Professional Summary</h2>
+        <p>BCA graduate with strong knowledge of HTML,CSS , JavaScript, Node.js, SQL and Python.
+            Currently pursuning MCA and interest in Front-End Development, Web Development and 
+            Automation. Passionate about building responsive websites and continuously learning
+            new technologies.</p>
     </section>
     <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-        </ul>
+    <h2>Technical Skills</h2>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Node.js</li>
+        <li>Python</li>
+        <li>GitHub</li>
+        <li>VS Code</li>
+        <li>Playwright</li>
+    </ul>
     </section>
-    <section id="projects">
+    <section id="Projects">
         <h2>Projects</h2>
+        <h3> BeatFlow Music App</h3>
+        <p><strong> Tech Stack:</strong> HTML,CSS,JavaScript,Node.js</p>
+
+        <p> Developed a responsive music streaming web application With playlists managment 
+            and user-friendly interface.</p>
+
+        <h3> Job Portal Automation </h3>
+        <p><strong> Tech Stack:</strong> HTML,CSS,JavaScript,Node.js,playwright</p>
+
+        <p> Developed an automation system for job portal tasks using playwright.</p>
+        <h3> My portfolio</h3>
+        <p><strong>Tech Stack:</strong> HTML,CSS,JavaScript</p>
+        <p> Development a responsive personal portfolio website to showcase my skills 
+            ,projects,internship exp
+        </p>
+    </section>
+    <section id="internship">
+        <h2>Internship</h2>
+        <h3>HR Intern - InAmigos Foundation</h3>
         <ul>
-            <li>Beatsflow</li>
-            <li>job portal Automation</li>
-            <li>Portfolio Website</li>
+            <li>Talent Sourcing</li>
+            <li>Candidate Screening</li>
+            <li>Interview Coordination</li>
+            <li>Communication Skills</li>
         </ul>
     </section>
+    <section>
+        <section id="Education"></section>
+        <h2>Education</h2>
+        <p>MCA - Pursing</p>
+        <p>BCA - 70.99%</p>
+        <P>Class XII - 68.8%</P>
+        <p>Class X - 73.5%</p>
+    </section>
+
     <section id="contact">
         <h2>Contact</h2>
-        <p>You can reach me at dikshaeen2006@example.com</p>
-        <p>Github:github.com/Dikshaeen2006-source</p>
+        <p>Email:</p>
+        <a href="dikshaeen2006@example.com">Mail To</a>
+        <p>Github:</p>
+        <a href="https://github.com/Dikshaeen2006-source">GitHub Profile</a>
+        <p>LinkedIn:</p>
+        <a href="https://linkedin.com/Diksha-sen">LinkeIn Profile</a>
     </section>
     <footer>
         <p>&copy; 2026 Diksha. All rights reserved.</p>
     </footer>
+    <button id="topBtn" onclick="topFunction()"> ^ </button>
     <script src="script.js"></script>
 </body>
 </html>
